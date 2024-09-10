@@ -11,8 +11,6 @@ _# 🎬 Filme Flix
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Capturas de Tela](#capturas-de-tela)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Sobre
 
