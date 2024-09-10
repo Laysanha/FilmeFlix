@@ -14,7 +14,7 @@ _# 🎬 Filme Flix
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
-## 📜 Sobre
+## Sobre
 
 **Filme Flix** foi criado para demonstrar como integrar Flutter com uma API REST, especificamente a **OMDb API**. O aplicativo permite que os usuários busquem filmes pelo título e visualizem informações detalhadas, como:
 
@@ -24,14 +24,14 @@ _# 🎬 Filme Flix
 - Classificação no IMDb
 - Imagem do pôster
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - 🔍 **Buscar filmes** pelo título.
 - 🎥 **Exibir detalhes do filme** incluindo ano, diretor e classificação do IMDb.
 - 🖼️ **Exibir pôsteres dos filmes** diretamente da API.
 - 🚀 **Integração rápida e simples com API** usando a OMDb API.
 
-## 🚀 Como Começar
+## Como Começar
 
 Para obter uma cópia local do projeto e colocá-lo para rodar, siga os passos abaixo.
 
@@ -54,7 +54,7 @@ O projeto usa a OMDb API para obter os detalhes dos filmes. Você precisará adi
 final String apiKey = 'SUA_API_KEY_AQUI';  // Substitua pela sua chave de API
 ```
 
-## 🔧 Instalação
+## Instalação
 
 1. Clone o repositório:
 
@@ -80,18 +80,18 @@ flutter pub get
 flutter run
 ```
 
-## 🔧 Uso
+## Uso
 
 Depois que o aplicativo estiver rodando, você pode:
 - Buscar por um filme digitando o título na barra de busca.
 - Visualizar os detalhes do filme como ano de lançamento, diretor, classificação no IMDb, e mais.
 - Ver os pôsteres dos filmes buscados diretamente da API.
 
-## 🖼️ Capturas de Tela
+## Capturas de Tela
 
 Vazio
 
-## 💡 Funcionalidades Futuras
+## Funcionalidades Futuras
 
 - 🔥 Favoritar filmes: Permitir que os usuários salvem seus filmes favoritos localmente.
 - 📱 Design responsivo: Melhorar a UI para diferentes tamanhos de tela.
