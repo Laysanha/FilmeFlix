@@ -1,4 +1,4 @@
-_# 🎬 Filme Flix
+# 🎬 Filme Flix
 
 **Filme Flix** é um aplicativo simples em Flutter que permite aos usuários buscar por filmes e obter detalhes como título, ano, diretor, classificação, e muito mais utilizando a **OMDb API**.
 
@@ -11,6 +11,7 @@ _# 🎬 Filme Flix
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Capturas de Tela](#capturas-de-tela)
+- [Funcionalidades Futuras](#funcionalidades-futuras)
 
 ## Sobre
 
