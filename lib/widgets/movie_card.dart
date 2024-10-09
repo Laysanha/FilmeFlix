@@ -3,13 +3,15 @@ import 'package:flutter/material.dart';
 class MovieCard extends StatelessWidget {
   final String imageUrl;
   final String title;
-  final String time;
+  final String rating;
+  final String genre;
 
   const MovieCard({
     super.key,
     required this.imageUrl,
     required this.title,
-    required this.time
+    required this.rating,
+    required this.genre,
   });
 
   @override
@@ -34,7 +36,11 @@ class MovieCard extends StatelessWidget {
           style: const TextStyle(color: Colors.white, fontSize: 24),
         ),
         Text(
-          'Time: $time',
+          genre,
+          style: const TextStyle(color: Colors.grey, fontSize: 16),
+        ),
+        Text(
+          rating,
           style: const TextStyle(color: Colors.grey, fontSize: 16),
         ),
       ],
