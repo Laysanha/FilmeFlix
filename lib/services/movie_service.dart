@@ -12,10 +12,24 @@ class MovieService {
    );
 
    if (response.statusCode == 200){
-     final data = json.decode(response.body);
+     //final data = json.decode(response.body);
+     final Map<String, dynamic> data = json.decode(response.body);
      return data['results'];
    } else {
      throw Exception('Erro ao carregar filmes');
    }
+  }
+  //Buscar filmes por genero
+  Future<List <dynamic>> fetchMoviesByGenre(int genreId) async {
+    final response = await http.get(
+      Uri.parse('$baseUrl/discover/movie?api_key=$apiKey&with_genres=$genreId&language=pt-BR&page=1'),
+    );
+
+    if (response.statusCode == 200){
+      final Map<String, dynamic> data = json.decode(response.body);
+      return data['results'];
+    } else {
+      throw Exception('Erro para ordenar os filmes');
+    }
   }
 }
